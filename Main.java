@@ -17,7 +17,7 @@ public class Main {
 			b[i] = a.nextInt();
 			i++;
 		  }   
-   for (i = 0; i < b.length; i += 0)
+   for (i = 0; i < b.length; i++)
       b[i] *= 2;
     System.out.println("Массив, умноженный на 2:");
     for (i = 0; i < b.length; i++)
