@@ -20,8 +20,7 @@ public class Main {
       b[i] *= 2;
     }
     System.out.println("Массив, умноженный на 2:");
-    for (i = 0; i < b.length; i++) {
     System.out.println(Arrays.toString(b));
-     }
+     
   }
 }
