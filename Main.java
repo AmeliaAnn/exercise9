@@ -12,17 +12,16 @@ public class Main {
 		int b[] = new int[n];
 		System.out.println("Заполните массив:");
 		int i = 0;
-		while (i < b.length)  
-		   {
+		  while (i < b.length) {
 			b[i] = a.nextInt();
 			i++;
 		  }   
-   for (i = 0; i < b.length; i++)
+   for (i = 0; i < b.length; i++) {
       b[i] *= 2;
+    }
     System.out.println("Массив, умноженный на 2:");
-    for (i = 0; i < b.length; i++)
+    for (i = 0; i < b.length; i++) {
     System.out.println(Arrays.toString(b));
-   
-   
+     }
   }
 }
